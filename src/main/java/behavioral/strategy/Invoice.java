@@ -3,8 +3,8 @@ package behavioral.strategy;
 import java.util.List;
 
 public class Invoice {
-    private Customer customer;
-    private List<InvoiceItem> items;
+    private final Customer customer;
+    private final List<InvoiceItem> items;
 
     public Invoice(Customer customer, List<InvoiceItem> items) {
         this.customer = customer;
