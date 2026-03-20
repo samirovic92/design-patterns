@@ -1,6 +1,6 @@
 package problem;
 
-import shared.ExchangeRate;
+import creational.singleton.ExchangeRate;
 
 import java.util.List;
 

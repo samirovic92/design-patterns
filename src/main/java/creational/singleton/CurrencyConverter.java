@@ -1,9 +1,6 @@
 package creational.singleton;
 
-import shared.ExchangeRate;
-
 import java.util.List;
-import java.util.Objects;
 
 import static java.util.Objects.*;
 
@@ -25,9 +22,9 @@ public class CurrencyConverter {
     private void loadExchangeRate() throws InterruptedException {
         Thread.sleep(2000);
         this.exchangeRates = List.of(
-                new shared.ExchangeRate("EURO", "MAD", 11d),
-                new shared.ExchangeRate("EURO", "USD", 0.8d),
-                new shared.ExchangeRate("USD", "MAD", 10d)
+                new ExchangeRate("EURO", "MAD", 11d),
+                new ExchangeRate("EURO", "USD", 0.8d),
+                new ExchangeRate("USD", "MAD", 10d)
         );
     }
 

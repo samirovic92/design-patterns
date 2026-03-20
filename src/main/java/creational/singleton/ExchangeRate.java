@@ -1,4 +1,4 @@
-package shared;
+package creational.singleton;
 
 public record ExchangeRate(
         String baseCurrency,
