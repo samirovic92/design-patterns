@@ -2,7 +2,7 @@ package creational.singleton;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import problem.CurrencyConverter;
+import creational.singleton.problem.CurrencyConverter;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

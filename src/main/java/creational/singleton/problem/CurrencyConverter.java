@@ -1,4 +1,4 @@
-package problem;
+package creational.singleton.problem;
 
 import creational.singleton.ExchangeRate;
 
