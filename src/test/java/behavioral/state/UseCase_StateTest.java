@@ -1,7 +1,5 @@
-package behavioral;
+package behavioral.state;
 
-import behavioral.state.Order;
-import behavioral.state.OrderStatus;
 import org.junit.jupiter.api.Test;
 
 import java.util.UUID;
